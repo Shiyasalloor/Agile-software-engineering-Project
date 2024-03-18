@@ -1,0 +1,36 @@
+.header {
+  position: fixed;
+  top: 10px;
+  left: 10px; /* Adjusted to be at the top left */
+  display: flex;
+  justify-content: space-between; /* Adjusted to push buttons to the right */
+  align-items: center; /* Vertically center align items */
+  padding: 10px; /* Reduced padding */
+  width: calc(100% - 20px); /* Adjusted width to consider padding and position */
+  background-color: transparent;
+}
+
+.heading {
+  margin: 0;
+  font-size:350%;
+}
+
+.buttons {
+  height: 40px; /* Adjusted height for better alignment */
+  width: 70px; /* Adjusted width for better alignment */
+  border-radius: 5px; /* Adjusted border radius */
+  font-size: 14px; /* Adjusted font size */
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  background: black;
+  color: white;
+  margin: 5pt;
+}
+
+.leftdiv {
+  margin-top: 50px; /* Adjusted margin to accommodate the header */
+  padding: 20px;
+  width: 50%;
+  text-align: left;
+}
