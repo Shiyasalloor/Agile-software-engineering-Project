@@ -6,7 +6,7 @@ import { FaUser,FaLock,FaUserLock,FaMobile,FaAddressCard,FaCamera } from "react-
 function SignUpForm() {
     const [profilePhoto, setProfilePhoto] = useState(null);
     const [profilePhotoURL, setProfilePhotoURL] = useState(null);
-
+    
     const handleFileChange = (e) => {
         const file = e.target.files[0];
         setProfilePhoto(file);
